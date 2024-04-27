@@ -1,0 +1,56 @@
+
+.uk-intro-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../src/assets/alexander-nrjwolf-X0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.uk-intro-section__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.uk-intro-section__header{
+    color:#fff;
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+.uk-intro-section__descr{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.uk-intro-section__btn{
+    background-color: #e7473c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.uk-intro-section__btn:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px){
+  .uk-intro-section__header{
+    font-size: 40px;
+  }
+  .uk-intro-section__descr{
+    font-size: 17px;
+  }
+}

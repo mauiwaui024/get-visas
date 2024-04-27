@@ -1,0 +1,42 @@
+.card {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px;
+    height: 170px;
+  }
+  .card:hover{
+    /* width:370px;
+    height:190px; */
+    box-shadow: 10px 10px 10px 10px #7f9f9f;
+  }
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .card {
+      width:100%;
+      height: 100%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 450){
+    .card  {
+      height: 100%;
+      padding-bottom: 28px;
+    }
+    .card h2 {
+      font-size: 1.2em;
+    }
+  
+    
+  }

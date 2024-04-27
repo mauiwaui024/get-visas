@@ -1,0 +1,16 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+  a {
+    text-decoration: none;
+    color:white;
+    background-color: transparent; /* or specify your desired background color */
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  

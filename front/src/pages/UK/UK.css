@@ -1,0 +1,114 @@
+.important-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 50%;
+    margin: 0 auto;
+}
+.important-section_text {
+    text-align: left;
+    font-size: 22px;
+}
+
+.important-section_header{
+    font-size: 30px;
+    text-align: left;
+}
+.important-section_content-wrapper{
+    /* background-color: rgba(0,0,0,.05); */
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .important-section {
+        width: 90%;
+      
+    }
+}
+
+/* cards */
+.visa-types-section {
+    background-color: #f2f2f2; /* серый фон самого блока */
+  }
+.visa-types-section_card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.icon_wrapper{
+    margin: 10px 10px 40px 10px;
+ 
+    
+}
+.icon_wrapper img {
+    width: 70px; /* Устанавливаем ширину изображения */
+    height: auto; /* Автоматически рассчитываем высоту, чтобы сохранить пропорции */
+}
+.visa-types-section_header{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+  
+  .visa-type_card {
+    text-align: left;
+    width: calc(33.33% - 20px); /* 3 карточки в ряд на компьютере */
+    margin-bottom: 20px;
+    background-color: #ffffff; /* белый фон карточек */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .visa-type_card h3 {
+    font-size: 20px; /* увеличенный шрифт на компьютере */
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .visa-type_card .nes-docs {
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .visa-type_card ul {
+    line-height: 1.55;
+    /* list-style-type: none; */
+    padding: 0 25px 10px 30px;
+  }
+  
+  .visa-type_card ul li {
+    padding: 5px 0;
+  }
+  
+
+
+
+  @media (max-width: 1024px) {
+    .visa-type_card {
+      width: calc(50% - 20px); /* 2 карточки в ряд на планшете */
+    }
+  
+    .visa-type_card h3 {
+      font-size: 18px; /* уменьшенный шрифт на планшете */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .visa-type_card {
+      width: calc(100% - 20px); /* 1 карточка в ряд на телефоне */
+    }
+  
+    .visa-type_card h3 {
+      font-size: 16px; /* еще более уменьшенный шрифт на телефоне */
+    }
+    .visa-type_card ul {
+        line-height: 1.20;
+        /* list-style-type: none; */
+        padding: 0 25px 10px 30px;
+      }
+  }
+  

@@ -1,0 +1,131 @@
+
+
+
+ 
+
+
+
+/* ////////////// */
+
+.steps-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.steps-section__header{
+    margin: 80px 0 70px;
+    font-size: 38px;
+}
+.steps-section__item{
+    position: relative;
+    /* padding-bottom: 30px; */
+}
+
+.steps-section__item__block{
+    max-width: 880px; 
+    margin: 0 auto; 
+    position: relative; 
+}
+
+.steps-section__item__col{
+    width: calc(50% - 20px); 
+    text-align: right;
+}
+
+.steps-section__item__col_container{
+    padding-right: 40px;
+}
+.steps-section__title{
+    margin-bottom: 6px;
+    margin-top: 2px;
+    font-size: 22px;
+    line-height: 1.35;
+    font-weight: 600;
+}
+.steps-section__descr{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 1.55;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+
+}
+
+.steps-section__item__line{
+    position: absolute;
+    width: 2px;
+    top: 5px;
+    background: #e0e0e0;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+
+.large{
+    height:100px
+}
+.steps-section__item__circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background: #222;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 4px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
+.flipped{
+    float: right !important;
+    text-align: left;
+    /* transform: translateY(50%);
+    margin-top: -60px;  */
+
+}
+.left{
+    padding: 0;
+    padding-left: 40px;
+}
+
+
+@media only screen and (max-width: 800px){
+    .steps-section__title{
+        font-size: 20px;
+        line-height: 1.35;
+        
+    }
+    .steps-section__descr{
+        font-size: 13px;
+        line-height: 1.40;
+   
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .steps-section__item__col {
+        width: calc(100% - 20px); /* Изменяем ширину на 100% */
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
+    .steps-section__item__col_container {
+        padding-right: 0; /* Убираем правый отступ */
+        padding-left: 40px; 
+    }
+    .left{
+        padding-left: 20px;
+    }
+    .steps-section__item__circle{
+        margin: 0 0 0 5px;
+
+    }
+    .steps-section__item__line {
+        margin: 0 0 0 16px;
+    }
+}

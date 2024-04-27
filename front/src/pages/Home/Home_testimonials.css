@@ -1,0 +1,153 @@
+.testimonials-section {
+    height: 80vh;
+    display: flex;
+
+}
+
+.testimonials-section__left {
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* Добавляем позиционирование для псевдоэлемента */
+    width: 50%;
+    background-image: url("../../src/assets/alexander-nrjwolf-X0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonials-section__left::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Черный цвет с прозрачностью 50% */
+}
+
+.testimonials-section__right {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* Добавляем позиционирование для псевдоэлемента */
+    width: 50%;
+    background-image: url("../../src/assets/global-residence-ind.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.testimonials-section__right::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Черный цвет с прозрачностью 50% */
+}
+
+.testimonials-section__left h1,
+.testimonials-section__right h1 {
+    font-size: 102px;
+    margin-bottom: 10px;
+}
+
+.testimonials-section__left h3,
+.testimonials-section__right h3 {
+    font-size: 40px;
+    margin-bottom: 10px
+}
+
+.testimonials-section__left p,
+.testimonials-section__right p {
+    font-size: 20px;
+}
+
+.testimonials-section__right h1,
+.testimonials-section__right h3,
+.testimonials-section__right p {
+    position: relative;
+    /* Чтобы текст был над псевдоэлементом */
+    z-index: 1;
+    /* Поднимаем текст над псевдоэлементом */
+    margin-bottom: 10px;
+}
+
+.testimonials-section__left h1,
+.testimonials-section__left h3,
+.testimonials-section__left p {
+    position: relative;
+    /* Чтобы текст был над псевдоэлементом */
+    z-index: 1;
+    /* Поднимаем текст над псевдоэлементом */
+    margin-bottom: 10px;
+}
+
+/* animation */
+
+.testimonials-section__left,
+.testimonials-section__right {
+    transition: background-size 0.3s ease;
+    /* Добавляем переход для background-size */
+    /* background-size: 125%; */
+    /* Устанавливаем начальный размер картинки */
+}
+
+.testimonials-section__left:hover,
+.testimonials-section__right:hover {
+    background-size: 101;
+    /* Увеличиваем размер картинки */
+}
+
+.testimonials-section__left:hover::before,
+.testimonials-section__right:hover::before {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Уменьшаем прозрачность для светлее отображения */
+}
+
+
+/* background-size: cover;
+background-repeat: no-repeat;
+background-position: center center; */
+
+
+
+@media only screen and (max-width: 1024px){
+    .testimonials-section{
+        flex-direction: column;
+        justify-content: space-between;
+        height:100%;
+    }
+    .testimonials-section__left {
+        height: 500px;        
+        width: 100%;
+    }
+    .testimonials-section__right {
+        width: 100%;
+        height: 500px
+
+    }
+    .testimonials-section__left h1,
+.testimonials-section__right h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.testimonials-section__left h3,
+.testimonials-section__right h3 {
+    font-size: 35px;
+    margin-bottom: 10px
+}
+
+.testimonials-section__left p,
+.testimonials-section__right p {
+    font-size: 19px;
+}
+}
