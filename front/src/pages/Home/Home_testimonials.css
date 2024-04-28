@@ -12,7 +12,7 @@
     position: relative;
     /* Добавляем позиционирование для псевдоэлемента */
     width: 50%;
-    background-image: url("../../src/assets/alexander-nrjwolf-X0.jpg");
+    background-image: url("/alexander-nrjwolf-X0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@
     position: relative;
     /* Добавляем позиционирование для псевдоэлемента */
     width: 50%;
-    background-image: url("../../src/assets/global-residence-ind.jpg");
+    background-image: url("/global-residence-ind.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 

@@ -44,7 +44,7 @@
 
 
 .intro-section__right_img {
-    background-image: url("../../src/assets/telka_s_fotikom.jpg");
+    background-image: url('/telka_s_fotikom.jpg');    
     background-size: cover;
     position: absolute;
     top: 0;
@@ -98,7 +98,7 @@
     
     .intro-section__right_img {
         height: 500px;
-        background-image: url("../../src/assets/telka_s_fotikom.jpg");
+        background-image: url("/telka_s_fotikom.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;

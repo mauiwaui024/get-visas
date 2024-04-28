@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <header>
       <div className="logo-container">
-        <img src="src/assets/get-visas-logo-120w.png" alt="logo" />
+        <img src="/get-visas-logo-120w.png" alt="logo" />
       </div>
       <nav className={`nav_div ${isOpen ? "responsive_nav" : ""}`} ref={navRef}>
         <div className="nav-links">
