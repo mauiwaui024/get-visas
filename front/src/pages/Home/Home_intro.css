@@ -1,4 +1,51 @@
 .intro-section {
+    display: flex;
+    height: 100%;
+
+    align-items: center;
+    position: static;
+}
+
+.intro-section__left {
+    /* padding: 0 2rem; */
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.intro-section__left h3 {
+    /* padding: 0 2rem; */
+    margin: 0;
+    font-size: 48px;
+    line-height: 1.23;
+}
+
+
+
+.intro-section__right {
+    height: auto;
+    position: static;
+    left: 0;
+    width: 100%;
+    transform: none;
+    transform-origin: unset;
+    margin-top: 20px;
+}
+
+.intro-section__right_img {
+    height: 500px;
+    background-image: url("/telka_s_fotikom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+    position: static;
+    transform: none;
+    transform-origin: unset;
+    
+}
+/* .intro-section {
     height: calc(100vh - 80px);
     display: flex;
     position: relative;
@@ -48,7 +95,7 @@
     background-size: cover;
     position: absolute;
     top: 0;
-    right: -30vw;
+    right: -30vw; 
     bottom: 0;
     left: 0;
     background-repeat: no-repeat;
@@ -57,7 +104,7 @@
     transform: skew(30deg, 0);
     transform-origin: bottom left;
     z-index: -1;
-}
+} */
 
 @media only screen and (max-width: 1024px) {
     .intro-section {
@@ -68,7 +115,7 @@
     }
 
     .intro-section__left {
-        padding: 0 2rem;
+        /* padding: 0 2rem; */
         position: static;
         display: flex;
         flex-direction: column;
@@ -76,15 +123,13 @@
     }
 
     .intro-section__left h3 {
-        padding: 0 2rem;
+        /* padding: 0 2rem; */
         margin: 0;
         font-size: 48px;
         line-height: 1.23;
     }
 
-    .intro-section_text {
-        padding: 0 2rem;
-    }
+   
 
     .intro-section__right {
         height: auto;

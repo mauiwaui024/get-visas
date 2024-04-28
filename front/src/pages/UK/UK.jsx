@@ -42,7 +42,7 @@ export const UK = () =>{
 
             <div className="visa-type_card">
                 <div className="icon_wrapper">
-                <img src="../../src/assets/icons8--100.png" alt="Иконка"/>
+                <img src="/icons8--100.png" alt="Иконка"/>
                 </div>
                 <h3>Туристическая</h3>
                 <div className="nes-docs">необходимые документы:</div>
@@ -58,7 +58,7 @@ export const UK = () =>{
 
             <div className="visa-type_card">
                 <div className="icon_wrapper">
-                <img src="../../src/assets/buss_icon.png" alt="Иконка"/>
+                <img src="/buss_icon.png" alt="Иконка"/>
                 </div>
                 <h3>Бизнес</h3>
                 <div className="nes-docs">необходимые документы:</div>
@@ -75,7 +75,7 @@ export const UK = () =>{
 
             <div className="visa-type_card">
                 <div className="icon_wrapper">
-                <img src="../../src/assets/stud_icon.png" alt="Иконка"/>
+                <img src="/stud_icon.png" alt="Иконка"/>
                 </div>
                 <h3>Студентеческая</h3>
                 <div className="nes-docs">необходимые документы:</div>

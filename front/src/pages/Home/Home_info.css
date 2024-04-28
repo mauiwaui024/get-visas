@@ -13,7 +13,7 @@
 .info-section__card_wrapper {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center;  */
+    justify-content: center; 
     /* justify-content: space-between;  */
 
 }
